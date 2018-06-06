@@ -8,6 +8,7 @@ Both lists are only from the last 24 hours updating at mid night and appending u
 justDomains.txt is going to be the TLD and subdomain
 fullUri.txt is going to be the full URI, you can decide which one you want to use.
 
-TODO for the future:
-grab unique domains and full URIs only.
+TODO for the future(Looking for suggestions):
+grab unique domains and full URIs only. ---> DONE
+
 
