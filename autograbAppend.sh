@@ -1,3 +1,5 @@
 #!/bin/bash
 
-curl -O -L https://data.phishtank.com/data/$APTKEY/online-valid.csv && awk -F',' '{print $2}' online-valid.csv >> fullUri.txt && awk -F',' '{print $2}' online-valid.csv | sed -e 1,1d | cut -d"/" -f3 | sort | uniq >> justDomain.txt
+echo $APTKEY "This is the API KEY!" >> /var/log/messages
+
+curl -O -L https://data.phishtank.com/data/$APTKEY/online-valid.csv && awk -F',' '{print $2}' online-valid.csv | sed -e 1,1d >> fullUri.txt && awk -F',' '{print $2}' online-valid.csv | sed -e 1,1d | cut -d"/" -f3 | sort | uniq >> justDomain.txt
