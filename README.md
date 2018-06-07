@@ -10,5 +10,5 @@ fullUri.txt is going to be the full URI, you can decide which one you want to us
 
 TODO for the future(Looking for suggestions):
 grab unique domains and full URIs only. ---> DONE
-
+exclude it from justDomains if its in the top 5000 domains.
 
