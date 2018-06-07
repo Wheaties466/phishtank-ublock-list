@@ -8,3 +8,4 @@ sort /root/phishtank-ublock-list/fullUri.txt | uniq > /root/phishtank-ublock-lis
 sort /root/phishtank-ublock-list/justDomain.txt | uniq > /root/phishtank-ublock-list/justDomain2.txt
 mv -f /root/phishtank-ublock-list/fullUri2.txt /root/phishtank-ublock-list/fullUri.txt
 mv -f /root/phishtank-ublock-list/justDomain2.txt /root/phishtank-ublock-list/justDomain.txt
+mv -f /root/phishtank-ublock-list/online-valid.csv /root/phishtank-ublock-list/online-valid.csv.old
